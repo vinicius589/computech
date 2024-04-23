@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1><img src="img\logo - Copia.jpg" href="index.html"></h1>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Ótima escolha!</h1>
+            <p>Obrigado por comprar na computech! Preencha seus dados para efetivar a compra.</p>
+        </div>
+    </div>
+    <h2 class="panel-title">Sua compra</h2>
+    <div class="panel-body">
+        <img src="img\produtos\miniatura2.jpg" alt="notebook gamer">
+        <fieldset class="col-sm-6">
+            <legend>compra</legend>
+            <div class="form-group">
+                <label for="nome">nome:</label>
+                notebook gamer
+                <br><label for="nome">preço:</label>
+                r$4678,90
+            </div>
+        </fieldset>
+        <form class="col-sm-8">
+            <div class="row">
+                <fieldset class="col-sm-6">
+                    <legend>Dados pessoais</legend>
+                    <div class="form-group">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" class="form-control" id="nome" name="nome" autofocus required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email"
+                            placeholder="email@exemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="cpf">CPF</label>
+                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00"
+                            required>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="sim" name="spam" checked>
+                            Quero receber spam da computech
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="col-sm-6">
+                    <legend>Cartão de Crédito</legend>
+                    <div class="form-group">
+                        <label for="numero-cartao">Número - CVV</label>
+                        <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+                    </div>
+                    <div class="form-group">
+                        <label for="bandeira-cartao">Bandeira</label>
+                        <select name="bandeira-cartao" id="bandeira-cartao" class="form-control">
+                            <option value="master">MasterCard</option>
+                            <option value="visa">VISA</option>
+                            <option value="amex">American Express</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="validade-cartao">Validade</label>
+                        <input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
+                    </div>
+                </fieldset>
+            </div>
+
+            <button type="submit" class="btn btn-primary pull-right">
+                <span class="glyphicon glyphicon-thumbs-up"></span>
+                Confirmar Pedido
+            </button>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>

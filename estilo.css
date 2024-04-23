@@ -1,0 +1,236 @@
+body {
+    color: #d3e911;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: #060505;
+}
+
+header {
+    position: relative;
+}
+
+.sacola {
+    background: url(file://img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+    color: #f7d40d;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+    text-decoration-line: unset;
+
+}
+
+.menu-opcoes a {
+    color: #f7d40d;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.busca,
+.menu-departamentos {
+    float: left;
+    background-color: #060505;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
+}
+
+.menu-departamentos li {
+    background-color: rgb(15, 11, 11);
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos a {
+    color: #dbef22;
+    text-decoration: none;
+}
+
+.menu-departamentos {
+    clear: left;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-departamentos a {
+    text-decoration: none;
+}
+
+.busca input {
+    vertical-align: middle;
+}
+
+.busca input[type=search] {
+    width: 170px;
+    border-radius: 25px;
+}
+
+.busca,
+.menu-departamentos {
+    float: left;
+}
+
+.busca {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.menu-departamentos {
+    clear: left;
+}
+
+.destaque {
+    margin-top: 10px;
+    position: relative;
+}
+
+.pause,
+.play {
+    display: block;
+    position: absolute;
+    right: 650px;
+    bottom: 25px;
+}
+
+.pause {
+    border-left: 10px solid rgb(253, 253, 251);
+    border-right: 10px solid rgb(253, 253, 252);
+    height: 30px;
+    width: 5px;
+}
+
+.play {
+    border-left: 25px solid rgb(251, 251, 248);
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+}
+
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+
+.novidades {
+    float: left;
+    color: #0c0808;
+}
+
+.mais-vendidos {
+    float: right;
+    color: #0c0808;
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2 {
+    text-shadow: 1px 1px 2px rgba(13, 13, 5, 0.8);
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.painel a {
+    color: #10100a;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.painel {
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px #0c0c08;
+    border-radius: 20px;
+}
+
+.painel h2 {
+    text-shadow: 3px 3px 2px #0a0a03;
+}
+
+.novidades {
+    float: left;
+    background-color: #050202;
+}
+
+.mais-vendidos {
+    float: right;
+    background-color: #050508;
+}
+
+.copy {
+    color: #f6f614;
+}
+
+.menu-opcoes a:hover {
+    color: #060a0c;
+}
+
+.menu-opcoes a:active {
+    color: #0b0a0e;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: #0e0303;
+}
+
+.menu-departamentos li li a:before {
+    content: '-';
+    padding-right: 3px;
+}
+
+.lupa:hover {
+    background: "file://img/images.jpeg";
+}
+
+.novidades {
+    background-color: #d4de13;
+}
+
+.mais-vendidos {
+    background-color: #d4de13;
+}
+
